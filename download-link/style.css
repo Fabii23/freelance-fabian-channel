@@ -30,19 +30,23 @@ body{
 
 .container{
     width: 50%;
-    height: 200px;
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
-    border: solid 1px lightgray; 
+    border: solid 1px lightgray;
     border-radius: 12px;
     margin-top: 100px;
     background-color: #fff;
+    grid-template-columns: repeat( auto-fit, minmax(150px, 1fr) );
 }
 
 .container > a{
     margin: 10px !important;
     text-decoration: none;
-    color:#797676;
+    color: #797676;
+    min-height: 100px;
     box-shadow: 0 .125rem .25rem rgba(0,0,0,.19)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
