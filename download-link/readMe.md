@@ -1,5 +1,5 @@
 ### Simple File Download using JavaScript and Html
-<a href="https://www.youtube.com/channel/UC2i2kz987XlV9GzO_OdPTMw" target="_blank">![YouTube](img/sub_banner.png)</a>
+<a href="https://www.youtube.com/channel/UC2i2kz987XlV9GzO_OdPTMw" target="_blank">![YouTube](client/img/sub_banner.png)</a>
 
 [YouTube : Freelance Fabian](https://www.youtube.com/channel/UC2i2kz987XlV9GzO_OdPTMw)
 
