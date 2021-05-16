@@ -1,5 +1,5 @@
 
-![YouTube](img/sub_banner.png)
+![YouTube](sub_banner.png)
 
 [YouTube : Freelance Fabian](https://www.youtube.com/channel/UC2i2kz987XlV9GzO_OdPTMw)
 
