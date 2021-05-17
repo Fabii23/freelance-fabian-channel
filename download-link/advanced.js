@@ -31,6 +31,21 @@ OnTheFly.DownloadLink  = (function(){
     };
 
     /**
+     * Initialize and attach our download anchor link
+     * @param {*} _configOptions 
+     */
+    function init(_configOptions){
+        if(_configOptions){
+            configOptions = {...configOptions, ..._configOptions};
+        }
+        
+        if(!isValid()){
+            throw new Error("Missing required configOptons");
+        }
+        attachDownLink( buildDownloadLink() );
+    };
+
+    /**
      * Returns a flag indicating whether we have all the required values
      * @returns bool 
      */
@@ -85,21 +100,6 @@ OnTheFly.DownloadLink  = (function(){
      */
     function attachDownLink(downloadLink){
         configOptions.sourceElement.appendChild(downloadLink);
-    };
-
-    /**
-     * Initialize and attach our download anchor link
-     * @param {*} _configOptions 
-     */
-    function init(_configOptions){
-        if(configOptions){
-            configOptions = {...configOptions, ..._configOptions};
-        }
-        
-        if(!isValid()){
-            throw new Error("Missing required configOptons");
-        }
-        attachDownLink( buildDownloadLink() );
     };
 
     return{
