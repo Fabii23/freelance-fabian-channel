@@ -1,0 +1,15 @@
+GET http://localhost:3000/user
+
+
+PUT http://localhost:3000/user/12342
+
+DELETE  http://localhost:3000/user/12342fdaf
+
+POST  http://localhost:3000/user HTTP/1.1
+content-type: application/json
+
+{
+    "username" : "Fabian",
+    "password" : "freelancer12" 
+}
+
